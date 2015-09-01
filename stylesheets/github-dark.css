@@ -101,7 +101,7 @@
 }
 
 .pl-mi1 /* markup.inserted, meta.diff.header.to-file */ {
-  background-color: #eaffea;
+  background-color: rgba(255, 255, 255, .75);
   color: #55a532;
 }
 

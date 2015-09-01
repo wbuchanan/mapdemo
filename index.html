@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <style>
 .background {
-	fill: #eeeeee;
+	fill: none;
 	pointer-events: none;
 }
 
@@ -17,8 +17,9 @@
 }
 
 .tooltip {
-	background-color:rgba(255,255,255,0.65);
+	background-color:rgba(50,50,50,0.5);
 	font: 15px sans-serif;
+	font-color: black;
 	font-weight: bold;
 	position: absolute;
 	width: auto;
@@ -44,11 +45,11 @@
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+<!--
+	  <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-
+-->
+	  <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <title>D3js Educational Maps by wbuchanan</title>
   </head>
 
@@ -99,7 +100,7 @@
       </section>
     </div>
 
-	<div id="distmap">
+	<div id="distmap" style = "margin-left: 25%; margin-right: 25%">
 		<script>
 
 			// Define the color scale for the district grades/polygons
